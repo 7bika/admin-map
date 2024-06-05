@@ -153,10 +153,10 @@ const UsersComponent = () => {
                 ) : (
                   <>
                     <button onClick={() => handleEdit(user)}>
-                      <FaEdit />
+                      <FaEdit color="black" />
                     </button>
                     <button onClick={() => openDeleteModal(user._id)}>
-                      <FaTrashAlt />
+                      <FaTrashAlt color="black" />
                     </button>
                   </>
                 )}
